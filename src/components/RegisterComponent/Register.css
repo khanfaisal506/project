@@ -1,0 +1,74 @@
+/* Root element to make form center aligned */
+#Register-form {
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#registerr{
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9; 
+}
+
+/* Form labels */
+form .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Form inputs */
+form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Form text (helper text) */
+form .form-text {
+    font-size: 14px;
+    color: #6c757d;
+}
+
+/* Checkbox */
+form .form-check-input {
+    margin-right: 10px;
+}
+
+form .form-check-label {
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Submit button */
+form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px; /* Ensures all buttons are the same width */
+    margin: 0 auto; /* Centers the button */
+    display: block; /* Allows margin auto to work */
+}
+
+form .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+.backregister
+{
+    background-color: black;
+
+}
